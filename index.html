@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Generate Calender By Selecting Month &amp; Year In JavaScript</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+  
+<body>
+<div class="container-fluid">
+<br>
+<div class="row ">
+  <div class="col-7">
+    <p> Select Year  :
+      <select id="selectYear">
+        <option>---------------</option>
+      </select>
+    </p>
+    <br>
+    <p> Select Month :
+      <select id="selectMonth" disabled>
+        <option>-----------<//option>
+    </select>
+  </p>
+
+  </div>
+  <div class="col-5 ">
+      <p>Year : 
+      <span class="text-info font-weight-bold" id="viewYear"></span></p>
+      <p>Month : 
+      <span class="text-primary font-weight-bold" id="viewMonth"></span></p>
+      <p>Days : 
+      <span class="text-success font-weight-bold" id="viewDays"></span></p>
+       <p>Week Day Start From : 
+      <span class="text-secondary font-weight-bold" id="startWeekDay"></span>
+  </div>
+</div>
+
+<div id="viewTable"></div>
+
+</div>
+
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
